@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +49,24 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        chart: {
+          "1": "hsl(var(--chart-1))",
+          "2": "hsl(var(--chart-2))",
+          "3": "hsl(var(--chart-3))",
+          "4": "hsl(var(--chart-4))",
+          "5": "hsl(var(--chart-5))",
+          "6": "hsl(var(--chart-6))",
+        },
+        kpi: {
+          purchase: "hsl(var(--kpi-purchase))",
+          "purchase-bg": "hsl(var(--kpi-purchase-bg))",
+          sell: "hsl(var(--kpi-sell))",
+          "sell-bg": "hsl(var(--kpi-sell-bg))",
+          orders: "hsl(var(--kpi-orders))",
+          "orders-bg": "hsl(var(--kpi-orders-bg))",
+          margin: "hsl(var(--kpi-margin))",
+          "margin-bg": "hsl(var(--kpi-margin-bg))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
